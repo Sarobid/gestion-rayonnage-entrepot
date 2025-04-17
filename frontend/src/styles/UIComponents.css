@@ -1,0 +1,152 @@
+.titre::before{
+    content: "";
+    background-color: #3eab36;
+    width: 20px;
+}
+
+.titre{
+    font-weight: bolder;
+}
+
+.button{
+    text-align: center;
+    color : var(--custom-color-white);
+    box-sizing: content-box;
+    padding: 4px 12px 4px 8px;
+    margin: 4px 0 4px 4px;
+    border-radius: 6px;
+    border: 2px solid var(--mute-grey);
+   
+}
+.button.button-green{
+    background-color: transparent;
+    color: #50a64a;
+    border-color: #50a64a;
+}
+.button.button-green:hover{
+    background-color: transparent;
+    color: #599b54;
+    border-color: #599b54;
+}
+.button.button-disabled{
+   cursor : not-allowed;
+}
+.button-primary-orange{
+
+}
+.button-primary{
+    border-color: var(--viseo-color-blue);
+    background: var(--viseo-gradient-blue);
+}
+.button-secondary{
+    border-color:  var(--viseo-color-blue);
+    background-color: transparent;
+    color : var(--viseo-text-blue);
+    transition: var(--hover-transition);
+}
+
+.button-primary:hover{
+    background: var(--hover-blue);
+    border-color: var(--hover-blue);
+}
+.button-secondary:hover{
+    border-color: var(--hover-blue);
+    color: var(--hover-blue);
+    background-color: transparent;
+}
+.button-dialog-primary{
+    color : var(--custom-color-white);
+    border-color: var(--viseo-color-orange);
+    background-color: var(--viseo-color-orange);
+}
+.button-dialog-secondary{
+    color: var(--viseo-color-orange);
+    border-color: var(--viseo-color-orange);
+    background: var(--mute-grey);
+    background-color: transparent;
+}
+.button-dialog-primary:hover{
+    color : var(--custom-color-white);
+    border-color: #af2f00;
+    background: #af2f00;
+}
+.button-dialog-secondary:hover{
+    color: #af2f00;
+    border-color: #af2f00;
+    background: #af2f00;
+    background-color: transparent;
+}
+.dialog{
+    color: var(--custom-color-black);
+    background-color: white;
+    box-sizing: content-box;
+    margin-top: 40px;
+    padding: 35px 45px;
+    transition: var(--hover-transition);
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 6px 20px 0 rgba(143, 143, 143, 0.19);;
+    border-radius: 8px;
+    border: 1px solid rgb(206, 206, 206);
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    
+}
+.title{
+    text-align: center;
+    padding-left: 10px;
+    color: var(--viseo-color-orange);
+    font-weight: 500;
+    font-size: 16pt;
+}
+.dialogBody{
+    padding: 20px 0;
+}
+
+.closeDialog{
+    font-size: 16pt;
+    position: relative;
+    bottom: 291px;
+  left: 250px;
+}
+
+.closeSign{
+    background-color: white ;
+    color: var(--viseo-color-orange);
+    transition: var(--hover-transition);  
+    
+}
+.closeSign:hover{
+    color: var(--hover-orange);
+    cursor : pointer;
+}
+.search-icon{
+    position:relative;
+    color:rgb(119, 119, 119);
+    right:28px;
+}
+.updateButton{
+    color: var(--viseo-color-green);
+    margin : 0 10px;
+}
+
+.updateButton:hover{
+    color: #1b8813;
+}
+
+.deleteButton{
+    color: var(--danger);
+    margin : 0 10px;
+}
+
+.deleteButton:hover{
+    color: #b00000
+}
+.progressBar{
+    width: 70%;
+    height: 8px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    margin-right: 8px;
+    overflow: hidden;
+}
