@@ -16,5 +16,4 @@ frontend/.env
 .idea/
 .DS_Store
 
-# Git
-*.log
+
